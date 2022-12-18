@@ -27,4 +27,4 @@ dst = cv2.cornerHarris(src=gray, blockSize=2, ksize=3, k=0.04)
 dst = cv2.dilate(dst, None)
 flat_chess[dst>0.01]
 
-print("Marvin")
+-----------------------------------
