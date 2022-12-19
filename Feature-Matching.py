@@ -109,7 +109,7 @@ flann_matches = cv2.drawMatchesKnn(reeses,kp1,cereals,kp2,good,None,flags=0)
 display(flann_matches)
 
 
---------------------------------------------------------------
+'''-------------------------------------------------------------'''
 
 # Initiate SIFT detector
 sift = cv2.xfeatures2d.SIFT_create()
@@ -142,7 +142,7 @@ draw_params = dict(matchColor = (0,255,0),
 
 flann_matches = cv2.drawMatchesKnn(reeses,kp1,cereals,kp2,matches,None,**draw_params)
 
-
+display(flann_matches)
 
 
 
